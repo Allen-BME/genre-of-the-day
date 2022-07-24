@@ -50,10 +50,6 @@ if __name__ == "__main__":
         urllib.request.urlretrieve(
         song["cover"],
         img_name)
-        
-        # from PIL import Image
-        # img = Image.open(img_name)
-        # img.show()
 
         caption = f" | Today's genre is {genre_choice}! If you need a suggestion, \"{song['name']}\" by {song['artista']} is a good choice."
 
