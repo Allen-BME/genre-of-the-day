@@ -1,5 +1,4 @@
 A Cappella
-Abstract
 Abstract Beats
 Abstract Hip Hop
 Abstract Idm
@@ -115,7 +114,6 @@ Bluegrass
 Blues
 Blues-rock
 Blues-rock Guitar
-Bmore
 Bolero
 Boogaloo
 Boogie-woogie
@@ -232,7 +230,6 @@ Classic Belgian Pop
 Classic Chinese Pop
 Classic Colombian Pop
 Classic Czech Pop
-Classic Danish Pop
 Classic Dutch Pop
 Classic Eurovision
 Classic Finnish Pop
@@ -469,7 +466,6 @@ Dreamo
 Drill And Bass
 Drone
 Drone Folk
-Drone Metal
 Drone Psych
 Drum And Bass
 Drumfunk
@@ -698,13 +694,11 @@ Indie Emo
 Indie Emo Rock
 Indie Folk
 Indie Fuzzpop
-Indie Pop
 Indie Pop Rock
 Indie Post-punk
 Indie Psych-pop
 Indie R&b
 Indie Rock
-Indie Shoegaze
 Indie Singer-songwriter
 Indietronica
 Indonesian Indie
@@ -758,7 +752,6 @@ Jazz
 Jazz Bass
 Jazz Blues
 Jazz Brass
-Jazz Christmas
 Jazz Funk
 Jazz Fusion
 Jazz Metal
@@ -961,7 +954,6 @@ Norwegian Pop
 Norwegian Punk
 Norwegian Rock
 Nu Age
-Nu Disco
 Nu Electro
 Nu Gaze
 Nu Jazz
@@ -1029,10 +1021,8 @@ Portuguese Rock
 Post Rock
 Post-disco
 Post-disco Soul
-Post-grunge
 Post-hardcore
 Post-metal
-Post-post-hardcore
 Post-punk
 Power Blues-rock
 Power Electronics
@@ -1158,7 +1148,6 @@ Slam Death Metal
 Slash Punk
 Slc Indie
 Sleaze Rock
-Sleep
 Slovak Hip Hop
 Slovak Pop
 Slovenian Rock
@@ -1174,7 +1163,6 @@ Soukous
 Soul
 Soul Blues
 Soul Christmas
-Soul Flow
 Soul Jazz
 Soundtrack
 South African Jazz
@@ -1204,7 +1192,6 @@ Steampunk
 Steelpan
 Stl Indie
 Stomp And Flutter
-Stomp And Holler
 Stomp And Whittle
 Stomp Pop
 Stoner Metal
@@ -1239,7 +1226,6 @@ Swing
 Swirl Psych
 Swiss Folk
 Swiss Hip Hop
-Swiss Rock
 Symphonic Black Metal
 Symphonic Metal
 Symphonic Rock
@@ -1294,7 +1280,6 @@ Trova
 Turbo Folk
 Turkish Alternative
 Turkish Classical
-Turkish Folk
 Turkish Hip Hop
 Turkish Jazz
 Turkish Pop
