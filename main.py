@@ -20,7 +20,6 @@ if __name__ == "__main__":
     print(f"got {genre_choice}!")
     genre_query = f"genre:\"{genre_choice}\""
     genre_tag = genre_choice.replace(" ", "").lower()
-    print(genre_tag)
 
 
     # --- search spotify
