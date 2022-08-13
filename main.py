@@ -19,6 +19,8 @@ if __name__ == "__main__":
     genre_choice = random.choice(genre_list)
     print(f"got {genre_choice}!")
     genre_query = f"genre:\"{genre_choice}\""
+    genre_tag = genre_choice.replace(" ", "").lower()
+    print(genre_tag)
 
 
     # --- search spotify
@@ -31,7 +33,7 @@ if __name__ == "__main__":
 
     results = sp.search(q=genre_query, limit=1, )
 
-    song = -1337
+    song = None
     for a in results['tracks']["items"]:
         image = a["album"]["images"][1]["url"]
         song = {
@@ -44,21 +46,22 @@ if __name__ == "__main__":
     
 
     # --- if spotify had info
-    if song != -1337:
+    if song != None:
         print("found info! posting info!")
-        img_name = f"{date.today()}-cover.png"
+        img_name = f"./cover-art/{date.today()}-cover.png"
         urllib.request.urlretrieve(
-        song["cover"],
-        img_name)
+            song["cover"],
+            img_name
+        )
 
-        caption = f" | Today's genre is {genre_choice}! If you need a suggestion, \"{song['name']}\" by {song['artista']} is a good choice."
+        caption = f" | Today's genre is \"{genre_choice}\"! If you need a suggestion, \"{song['name']}\" by {song['artista']} is a good choice. \n#music #{genre_tag}"
 
 
     # if spotify had no info
     else:
         print("didn't found info :( posting sad")
         img_name = "sad.jpg"
-        caption = f" | Today's genre is {genre_choice}, but it's too underground! There's no suggestion today, just use google..."
+        caption = f" | Today's genre is \"{genre_choice}\", but it's too underground! I couldn't find a suggestion today, sorry... \n#music #{genre_choice}"
 
 
     # upload to instagram
