@@ -1,11 +1,19 @@
 import random
 import urllib.request
 from datetime import date
+import os
 
 import spotipy
 from instagrapi import Client
 
 if __name__ == "__main__":
+
+    # --- get secret names and passwords
+    GENRE_ACCT_NAME = os.environ['GENRE_ACCT_NAME']
+    GENRE_ACCT_PASSWORD = os.environ['GENRE_ACCT_PASSWORD']
+    SPOTIFY_ID = os.environ['SPOTIFY_ID']
+    SPOTIFY_SECRET = os.environ['SPOTIFY_SECRET']
+
 
     # --- get random genre
     print("getting random genre...")
@@ -25,8 +33,8 @@ if __name__ == "__main__":
     # --- search spotify
     print("searching spotify...")
     auth_manager = spotipy.SpotifyClientCredentials(
-        client_id="99591cba631d46d98a9190e7af140bb4",
-        client_secret="f67ef2f1c1a24b00b51e60a70d47bcd4",
+        client_id=SPOTIFY_ID,
+        client_secret=SPOTIFY_SECRET,
     )
     sp = spotipy.Spotify(auth_manager=auth_manager)
 
@@ -65,11 +73,9 @@ if __name__ == "__main__":
 
     # upload to instagram
     print("uploading to insta...")
-    ACCOUNT_USERNAME = "carter.e.allen@gmail.com"
-    ACCOUNT_PASSWORD = "r4Q0OFHVeF2qx67&Hio$"
 
     cl = Client()
-    cl.login(ACCOUNT_USERNAME, ACCOUNT_PASSWORD)
+    cl.login(GENRE_ACCT_NAME, GENRE_ACCT_PASSWORD)
 
     cl.photo_upload(
         path=img_name,
