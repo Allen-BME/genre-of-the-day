@@ -23,7 +23,12 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script # run main.py
-        run: python main.py
+        run: python main.py 
+        env:
+          GENRE_ACCT_PASSWORD: ${{ secrets.GENRE_ACCT_PASSWORD }} 
+          GENRE_ACCT_NAME: ${{ secrets.GENRE_ACCT_NAME }}
+          SPOTIFY_ID: ${{ secrets.SPOTIFY_ID }}
+          SPOTIFY_SECRET: ${{ secrets.SPOTIFY_SECRET }}
           
       - name: commit files
         run: |
