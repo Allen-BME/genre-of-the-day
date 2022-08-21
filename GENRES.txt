@@ -171,7 +171,6 @@ Cantautor
 Cante Flamenco
 Canterbury Scene
 Cantopop
-Canzone Napoletana
 Capoeira
 Carnatic
 Catstep
@@ -402,7 +401,6 @@ Deep Neofolk
 Deep New Wave
 Deep Nordic Folk
 Deep Northern Soul
-Deep Opera
 Deep Orchestral
 Deep Orgcore
 Deep Pop Emo
@@ -749,7 +747,6 @@ Japanese Standards
 Japanese Traditional
 Japanoise
 Jazz
-Jazz Bass
 Jazz Blues
 Jazz Brass
 Jazz Funk
@@ -767,7 +764,6 @@ Jump Up
 Jungle
 K-hop
 K-indie
-K-pop
 K-rock
 Kabarett
 Karneval
@@ -985,7 +981,6 @@ Outsider House
 P Funk
 Pagan Black Metal
 Pagode
-Pakistani Pop
 Permanent Wave
 Persian Pop
 Persian Traditional
@@ -1243,7 +1238,6 @@ Terrorcore
 Texas Blues
 Texas Country
 Thai Indie
-Thai Pop
 Thrash Core
 Thrash Metal
 Thrash-groove Metal
