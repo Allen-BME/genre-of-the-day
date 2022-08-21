@@ -68,7 +68,7 @@ if __name__ == "__main__":
     else:
         print("didn't found info :( posting sad")
         img_name = "sad.jpg"
-        caption = f" | Today's genre is \"{genre_choice}\", but it's too underground! I couldn't find a suggestion today, sorry... \n#music #{genre_choice}"
+        caption = f" | Today's genre is \"{genre_choice}\", but it's too underground! I couldn't find a suggestion today, sorry... \n#music #{genre_tag}"
 
 
     # upload to instagram
